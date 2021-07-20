@@ -1,0 +1,399 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+html {
+  font-size: 65%;
+}
+
+/*************************** HEADER ***********************/
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100vw;
+  margin: 2rem auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
+nav p {
+  display: none;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+
+header ul a.bg {
+  background-color: lightgray;
+  padding: 1rem 4rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+}
+
+header nav h1:hover,
+header ul a:hover:not(a.bg) {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 0.3rem;
+}
+
+/**************************** MAIN ************************************/
+main {
+  width: 100vw;
+  margin: 8rem auto;
+}
+
+div.wrapper-main {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.left {
+  width: 50%;
+  float: left;
+}
+
+div.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  float: left;
+  height: 350px;
+  margin-bottom: 3rem;
+  padding: 0 8rem;
+}
+
+div.bottom {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.left2 {
+  width: 30%;
+}
+
+div.left2.a {
+  margin-right: 2.5%;
+}
+
+div.left2.b {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+div.left2.c {
+  margin-left: 2.5%;
+}
+
+div.left2 img {
+  margin-bottom: 3rem;
+}
+
+div.right h2 {
+  font-size: 2.1rem;
+}
+
+div.right p {
+  line-height: 2rem;
+}
+
+p span.fa-bahai {
+  color: #ed455d;
+  width: 2rem;
+  height: 2rem;
+}
+
+span.fa-wifi {
+  width: 3.3rem;
+  height: 3rem;
+}
+
+span.fa-mug-hot {
+  width: 3rem;
+  height: 2.6rem;
+}
+
+div.last {
+  display: flex;
+}
+
+div.last span.faces img {
+  border-radius: 50%;
+}
+
+div.last span.faces {
+  margin-right: 2rem;
+}
+
+span.star {
+  color: yellow;
+}
+
+div.last span.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+span.book {
+  margin: 1.5rem 0 1rem 3rem;
+  border-radius: 1rem;
+  background-color: gray;
+  font-size: 1.4rem;
+  padding: 0.5rem 1rem;
+}
+
+/**************************** FOOTER **********************************/
+footer {
+  background-color: gray;
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 100vw;
+  clear: left;
+  height: 20rem;
+}
+div.wrapper-footer {
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+}
+
+div.footer h1,
+div.footer h2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+div.footer h2 {
+  margin-bottom: 1rem;
+}
+
+div.footer p {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+div.footer p.margin {
+  position: relative;
+  top: 6rem;
+}
+
+div.footer input {
+  padding: 0.5rem;
+  background-color: #efefef;
+  color: floralwhite;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  border: none;
+}
+
+div.footer input[placeholder] {
+  color: floralwhite;
+}
+
+div.div-footer.h2 span {
+  font-size: 2.1rem;
+  text-align: center;
+  color: white;
+}
+
+div.footer h1:hover,
+div.footer h2:hover,
+div.footer p:hover {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-thickness: 0.3rem;
+}
+
+/***************************MOBILE**************************/
+@media (max-width: 767px) {
+  nav p {
+    display: block;
+  }
+  header ul {
+    display: none;
+  }
+  div.left,
+  div.right {
+    width: 100%;
+    clear: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.right {
+    padding: 0 1rem;
+    justify-content: space-around;
+  }
+
+  div.right h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  div.right p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  div.last span.faces img {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  div.last span.faces {
+    margin-right: 0.5rem;
+  }
+
+  span.rating {
+    font-size: 1.2rem;
+  }
+
+  span.book {
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+
+  footer {
+    height: 30rem;
+  }
+
+  div.footer h1 {
+    font-size: 1.8rem;
+  }
+
+  div.footer h2 {
+    font-size: 1.6rem;
+  }
+
+  div.footer p {
+    line-height: 1.5rem;
+  }
+
+  div.footer p.margin {
+    position: relative;
+    top: 0;
+  }
+
+  div.div-footer {
+    padding-bottom: 2rem;
+  }
+
+  div.div-footer.h2 {
+    position: relative;
+    right: 3.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.right {
+    padding: 0 2rem;
+  }
+
+  div.right h2 {
+    font-size: 1.6rem;
+  }
+  div.right p {
+    font-size: 1.2rem;
+  }
+
+  span.rating {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    height: 30rem;
+  }
+
+  div.footer h1 {
+    font-size: 1.8rem;
+  }
+
+  div.footer h2 {
+    font-size: 1.6rem;
+  }
+
+  div.footer p {
+    line-height: 1.5rem;
+  }
+
+  div.footer p.margin {
+    position: relative;
+    top: 0;
+  }
+
+  div.div-footer {
+    padding-bottom: 2rem;
+  }
+
+  div.div-footer.h2 {
+    position: relative;
+    right: 3.3rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  div.right {
+    padding: 0 2rem;
+  }
+
+  div.right p {
+    font-size: 1.2rem;
+  }
+
+  span.rating {
+    font-size: 1.2rem;
+  }
+
+  div.last {
+    align-items: center;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/createaccountusers.css">
+    <link rel="stylesheet" href="../CSS/createaccountusersqueries.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>spaces.ng create account</title>
+</head>
+<body>
+    <div class="container">
+        <div class="join__prompt">
+            <div class="item__1">
+                <img src="/img/createaccountusers-images/spaces.NG.png" alt="spaces.NG Logo">
+            </div>
+           <div class="item__2">Have an account?</div>
+           <button class="btn sign_in"> <a href="./loginaccount.html">Log in</a></button>
+        </div>
+        <div class="content">
+            <div class="account">
+                <h2 class="text_1">Have access to over a million workspaces</h2>
+                <h3 class="text_2">Find the best workspace tailored to suit your business.</h3>
+                <div class="click">
+                    <button type="button" class="btn facebook">
+                        <span class="btn__icons">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </span>
+                        <!-- <span class="btn__text">Join with Facebook</span> -->
+                        <a href="http://thespacesng.herokuapp.com/api/aocial_auth/facebook/" class="btn__text">Join with Facebook</a>
+                    </button>    
+                </div>                                                             
+                
+                <h3 class="or">OR</h3>
+                <form action="http://thespacesng.herokuapp.com/api/auth/register/" method="POST" id="login-form">
+                    <div class="wrapper">
+                        <div class="box">
+                            <input type="text" name="first_name" id="firstname" required>
+                            <label for="firstname">First Name</label>
+                        </div>
+                        <div class="box">
+                            <input type="text" name="last_name" id="lastname" required>
+                            <label for="lastname">Last Name</label>
+                        </div>
+                        <div class="box">
+                            <input type="text" name="username" id="username" required>
+                            <label for="username">username</label>
+                        </div>
+                        <div class="box">
+                            <input type="text" name="phone_no" id="phone_no" required>
+                            <label for="phone_no">phone no</label>
+                        </div>
+                        <div class="box">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="box">
+                            <input type="password" name="password" id="password" required>
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+
+                    <input type="submit" name="" value="Create Account">
+                </form>
+                <h3 class="policy">By joining you are agreeing to our Terms of Service and Privacy Policy</h3>
+            </div>
+            <div class="spaces_images">
+                <img src="../img/createaccountusers-images/img1.jpg" alt="workspace" class="spaces__image">
+            </div>
+        </div>
+
+       
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        // const loginForm = document.getElementById("login-form").addEventListener('submit', async function (e) {
+        //     console.log("@hahahahha");
+        //     e.preventDefault()
+        //     const user = fetch("http://thespacesng.herokuapp.com/api/auth/register/", {
+                
+        //     })
+        //     console.log(user);
+        // })
+    </script>
+</body>
+</html>

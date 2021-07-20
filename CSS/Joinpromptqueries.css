@@ -1,0 +1,338 @@
+@media only screen and (max-width:2560px){
+    .item__1{
+        font-size: 7rem;
+        font-weight: 500;
+        padding-left: 40rem;
+    }
+    .item__2{
+        font-size: 4rem;
+        font-weight: 100;
+        color: #000000;
+    }
+    .sign_in{
+        width: 15rem;
+        height: 6rem;
+        font-size: 4rem;
+    }
+    
+.todo{
+    padding: 12rem;
+    margin: auto;
+    font-weight: 500;
+    font-size: 13rem;
+}
+.spaces__images{
+    display: grid;
+    padding: 8rem 8rem;
+}
+.spaces_img{
+    height: auto;
+    width: 70rem; 
+    margin: 4rem 20rem;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.1);
+}
+.text{
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 4rem;
+}
+.image_btn{
+    height: 8rem;
+    width: 27rem;
+    font-size: 3rem;
+    margin: 2rem 40rem;
+}
+
+.story{
+    font-size: 3rem;
+}
+    
+}
+@media only screen and (max-width:1440px){
+    
+.item__1{
+    font-size: 5rem;
+    font-weight: 500;
+    padding-left: 20rem;
+}
+
+.item__2{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #000000;
+}
+
+.sign_in{
+    width: 10rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.todo{
+    padding: 8rem;
+    font-weight: 500;
+    font-size: 8rem;
+    line-height: 7rem;
+}
+.spaces__images{
+    display: grid;
+    padding: 8rem 10rem;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 6rem;
+    justify-self: center;
+    align-items: center;
+}
+
+.spaces_img{
+    height: auto;
+    width: 40rem; 
+    margin: 4rem 8rem;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.1);
+}
+
+.text{
+    color:#656565;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 4rem;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+}
+
+.image_btn{
+    height: 4rem;
+    width: 20rem;
+    color: #656565;
+    background: #DADADA;
+    border:none;
+    font-size: 2rem;
+    border-radius: 1.2rem;
+    margin: 2rem 15rem;
+}
+
+.story{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color:#656565;
+    padding:3rem 13rem 15rem;
+}
+    
+    
+}
+
+/*Big tablets to 1200px (widths smaller than the 1440px row) */
+ @media only screen and (max-width:1200px){
+    .item__1{
+        font-size: 4rem;
+        font-weight: 500;
+        padding-left: 10rem;
+    }
+    
+    .item__2{
+        font-size: 2rem;
+        font-weight: 100;
+        color: #000000;
+    }
+    
+    .sign_in{
+        width: 8rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+    
+    .todo{
+        padding: 8rem;
+        font-weight: 500;
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+    .spaces__images{
+        padding: 8rem 6rem;
+        margin-left: 4rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 3rem;
+    }
+    
+    .spaces_img{
+        height: auto;
+        width: 30rem; 
+        margin: 4rem 4rem;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,.1);
+    }
+    
+    .text{
+        padding: 4rem;
+    }
+    
+    .image_btn{
+        font-size: 2rem;
+        border-radius: 1.2rem;
+        margin: 2rem 10rem;
+    }
+    
+    .story{
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding:3rem 13rem 15rem;
+    }
+        
+}
+
+
+/*Small tablets to big tablets: from 768 to 1023px */
+ @media only screen and (max-width: 1023px){
+    .item__1{
+        font-size: 3rem;
+        font-weight: 500;
+        padding-left: 5rem;
+    }
+    
+    .item__2{
+        font-size: 1.5rem;
+        font-weight: 100;
+        color: #000000;
+    }
+    
+    .sign_in{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .todo{
+        padding: 8rem;
+        font-weight: 500;
+        font-size: 4rem;
+        line-height: 7rem;
+    }
+    .spaces__images{
+        padding: 8rem 6rem;
+        margin-left: 2rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 3rem;
+    }
+    
+    .spaces_img{
+        height: auto;
+        width: 25rem; 
+        margin: 4rem 2rem;
+        box-shadow: 0 2rem 6rem rgba(0,0,0,.1);
+    }
+    
+    .text{
+        padding: 4rem;
+    }
+    
+    .image_btn{
+        font-size: 1.5rem;
+        border-radius: 1.2rem;
+        margin: 2rem 8rem;
+        width: 15rem;
+    }
+    
+    .story{
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding:3rem 13rem;
+    }
+}
+
+
+/*Small phones to small tablets: from 481px to 767px*/
+ @media only screen and (max-width: 767px){
+    .item__1{
+        font-size: 2rem;
+        font-weight: 500;
+        padding-left: 2rem;
+    }
+    
+    .item__2{
+        font-size: 1.2rem;
+        font-weight: 100;
+        color: #000000;
+    }
+    
+    .sign_in{
+        width: 5rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .todo{
+        padding: 2rem;
+        font-weight: 500;
+        font-size: 3rem;
+        line-height: 7rem;
+    }
+    .spaces__images{
+        padding: 8rem .5rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+    }
+    
+    .spaces_img{
+        height: auto;
+        width: 15rem; 
+        box-shadow: 0 2rem 6rem rgba(0,0,0,.1);
+    }
+    
+    .text{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .image_btn{
+        font-size: 1.2rem;
+        border-radius: 1.2rem;
+        margin: 2rem 2.5rem;
+        width: 12rem;
+    }
+    
+    .story{
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding:3rem 13rem;
+    }
+} 
+
+/*Small phones from 0 to 480p*/
+@media only screen and (max-width: 480px){
+    .todo{
+        padding: 2rem;
+        font-weight: 500;
+        font-size: 2.5rem;
+        line-height: 7rem;
+    }
+    .spaces__images{
+        padding: 8rem 0;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: .5rem;
+    }
+    
+    .spaces_img{
+        height: auto;
+        width: 10rem; 
+        box-shadow: none;
+    }
+    
+    .text{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    .image_btn{
+        font-size: 1.1rem;
+        border-radius: 1.2rem;
+        margin: 2rem 2rem;
+        width: 10rem;
+    }
+    
+    .story{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding:3rem 0;
+    }
+} 

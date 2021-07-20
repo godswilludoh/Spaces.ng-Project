@@ -1,0 +1,45 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/Joinprompt.css">  
+    <link rel="stylesheet" href="../CSS/Joinpromptqueries.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Join prompt</title>
+</head>
+<body>
+    <div class="container">
+        <div class="join__prompt">
+            <div class="item__1">
+                <img src="/img/joinprompt-images/spaces.NG.png" alt="spaces.ng Logo">
+            </div>
+           <div class="item__2">Have an account?</div>
+           <button class="btn sign_in"><a href="./loginaccount.html">Log In</a></button>
+        </div>
+           
+        <p class="todo">
+            What do you need to do?
+        </p>
+        <div class="spaces__images">
+            <div class="spaces__gallery">
+                <img src="../img/joinprompt-images/img1.jpg" alt="image1" class="spaces_img">
+            <h3 class="text">I’m here to find and book workspaces in my area.</h3>
+            <button class="btn image_btn" onClick="accountUsersFn()">I want to book</button>
+            </div>
+
+            <div class="spaces__gallery">
+                <img src="../img/joinprompt-images/img2.jpg" alt="image2" class="spaces_img">
+            <h3 class="text">I’m here to register my building as a workspace.</h3>
+            <button class="btn image_btn" onClick="accountOwnersFn()">I want to advertise</button>
+            </div>
+            
+        </div>
+        <h3 class="story">
+            We’ll use this information to personalize your experience, you'll be able to search for workspaces and register your workspace, no matter the option you choose
+        </h3>
+    </div>
+    
+    <script src="/JS/joinprompt.js"></script>
+</body>
+</html>
