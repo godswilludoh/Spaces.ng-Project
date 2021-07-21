@@ -62,6 +62,17 @@ body{
     align-items: center;
 }
 
+a{
+    color: #000;
+    border:none;
+    text-decoration:none;
+}
+
+a:active{
+    border:none;
+    text-decoration:none;
+}
+
 .btn:active,
 .btn:link{
     cursor: pointer;

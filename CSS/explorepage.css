@@ -37,10 +37,6 @@ nav p {
   color: #222;
 }
 
-nav a {
-  text-decoration: none;
-}
-
 header ul {
   display: flex;
   flex-direction: row;
@@ -69,7 +65,7 @@ header ul a.bg {
 header nav h1:hover,
 header ul a:hover:not(a.bg) {
   text-decoration-line: underline;
-  text-decoration-color: blue;
+  text-decoration-color: #000;
   text-decoration-thickness: 0.3rem;
 }
 
